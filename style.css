@@ -361,9 +361,14 @@ background-position: center;
 
 
 
-  @media (max-width : 550px)
+  @media (max-width : 700px)
   {
     #about .history .images img{
       width: 300px;
   }
+
+  .home header nav{
+    margin: 0 1rem;
+}
+
   }
