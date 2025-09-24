@@ -126,7 +126,7 @@ background-position: center;
 /* ofeers start */
 #offers{
     min-height: 100vh;
-    background: rgba(0, 0, 0, 0.911);
+    background-image: url(img/offer-background.jpg);
     padding-top: 20px;
     padding-inline: 20px;
 }
@@ -173,7 +173,7 @@ background-position: center;
 
 /* Menu Section */
 #menu {
-    padding: 80px 0;
+    padding: 20px 0;
     background-color: #f8f9fa; /* light background */
   }
   
@@ -223,6 +223,10 @@ background-position: center;
     font-size: 1.1rem;
     font-weight: bold;
   }
+
+  #menu .card .price{
+    color: orange !important;
+  }
   
   /* Hover effect */
   #menu .card:hover {
@@ -237,7 +241,7 @@ background-position: center;
 
 
   #gallery {
-    background: #111; /* dark background */
+    background-image: url(img/offer-background.jpg);
   }
   
   #gallery h1 {
@@ -354,3 +358,12 @@ background-position: center;
     font-size: 14px;
   }
   
+
+
+
+  @media (max-width : 550px)
+  {
+    #about .history .images img{
+      width: 300px;
+  }
+  }
